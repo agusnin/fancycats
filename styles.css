@@ -58,7 +58,7 @@ h2	{
 	color: #5b5656;
 }	
 img	{
-	width: 900px;
+	width: block;
 	height: auto;
 	display: block;
 	margin: auto;

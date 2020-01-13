@@ -58,7 +58,15 @@ img	{
 	align-items: center;
 	flex-wrap: wrap;
 }
+.padding {
+	margin: 35px 0px;
+}
 
+.square {
+	height: 200px;
+	width: auto;
+	object-fit: cover;
+}
 @media (max-width: 960px) {
 	.responsive-container {
 		background-color: #F9EDE3;
@@ -79,15 +87,6 @@ img	{
 	.square {
 		margin: 10px;
 	}
-}
-.padding {
-	margin: 35px 0px;
-}
-
-.square {
-	height: 200px;
-	width: auto;
-	object-fit: cover;
 }
 h3	{
 	color: #3F3C38;

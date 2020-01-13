@@ -52,6 +52,13 @@ img	{
 	width: 100%
 }
 
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 @media (max-width: 960px) {
 	.responsive-container {
 		background-color: #F9EDE3;
@@ -62,15 +69,6 @@ img	{
 	.responsive-container {
 		background-color: #F9EDE3;
 	}
-}
-
-
-
-.flex-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	flex-wrap: wrap;
 }
 
 @media (max-width: 425px) {

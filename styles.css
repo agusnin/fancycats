@@ -58,7 +58,7 @@ img	{
 	}
 }
 
-@media (min-width: 540px) {
+@media (max-width: 540px) {
 	.responsive-container {
 		background-color: #F9EDE3;
 	}
